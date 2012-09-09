@@ -1,16 +1,7 @@
-<h1>Where do you want to go?</h1>
+<h1>Locations</h1>
 
 <table class="table">
-  <tr>
-    <th>Image url</th>    
-    <th>Location</th>
-    <th>Description</th>
-    <th>Price</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
-
+  
 <% @products.each do |product| %>
   <tr>
     <td><%= product.title %></td>
@@ -26,4 +17,4 @@
 
 <br />
 
-<%= link_to 'New Product', new_product_path %>
+<%= link_to 'New Product', new_product_path, class: "btn btn-primary" %>
