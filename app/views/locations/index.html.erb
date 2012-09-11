@@ -3,8 +3,8 @@
 <table>
   <tr>
     <th> title</th>
-    <th>Image url</th>
     <th>Description</th>
+    <th>Image url</th>
     <th></th>
     <th></th>
     <th></th>
@@ -13,8 +13,8 @@
 <% @locations.each do |location| %>
   <tr>
     <td><%= location. title %></td>
-    <td><%= location.image_url %></td>
     <td><%= location.description %></td>
+    <td><%= location.image_url %></td>
     <td><%= link_to 'Show', location %></td>
     <td><%= link_to 'Edit', edit_location_path(location) %></td>
     <td><%= link_to 'Destroy', location, method: :delete, data: { confirm: 'Are you sure?' } %></td>
