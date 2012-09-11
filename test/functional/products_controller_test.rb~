@@ -7,7 +7,6 @@ class ProductsControllerTest < ActionController::TestCase
       title:		'Lorem Ipsum',
       description:	'Wibbles are fun!',
       image_url:	'lorem.jpg',
-    }
   end
 
   test "should get index" do
