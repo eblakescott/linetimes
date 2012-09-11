@@ -22,7 +22,7 @@ Product.create(title: 'Field Museum',
     %{<p>
         The Field Museum of Natural History is located in Chicago, Illinois, USA. It sits on Lake Shore Drive next to Lake Michigan, part of a scenic complex known as the Museum Campus Chicago.
       </p>},
-  image_url:   'field_museum.jpg',    
-  price: 36.00)
+  image_url:   'field_museum.jpg'
+)
 # . . .
 
