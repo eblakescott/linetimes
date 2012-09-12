@@ -3,14 +3,12 @@
 <% end %>
 <h1>Where Do You Want to Go?</h1>
 <% @products.each do |product| %>
-<div class="container-fluid">
 <div class="entry">
 <%= image_tag(product.image_url) %>
 <h3><%= product.title %></h3>
 <p><%= sanitize(product.description) %></p>
 <div class="wait_time_line">
 <span class="wait_time"><%= product.price %></span>
-</div>
 </div>
 </div>
 <% end %>
