@@ -1,17 +1,24 @@
 <% if notice %>
 <p id="notice"><%= notice %></p>
 <% end %>
+<div class="container">
 <h1>Where Do You Want to Go?</h1>
-<% @products.each do |product| %>
-<div class="container-fluid">
-<div class="entry">
-<%= image_tag(product.image_url) %>
-<h3><%= product.title %></h3>
-<p><%= sanitize(product.description) %></p>
-<div class="wait_time_line">
-<span class="wait_time"><%= product.price %></span>
+<div class="row">
+  <div class="span6">
+  <h2>Browse wait times for clubs, museums, restaurants, and more</h2>
+  </div>
+  <div class="span3">
+  <h2> Or...</h2>
+  </div>
+  <form class="form-search">
+  <div class="input-append">
+      <input type="text" class="span2 search-query" placeholder="Location name...">
+      <button type="submit" class="btn btn-primary">Go!</button>
+  </div>
+  </div>
+    </form>
+  
 </div>
-</div>
-</div>
-<% end %>
+
+
 
