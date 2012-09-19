@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @museum.title %>
+</p>
+
+<p>
+  <b>Image url:</b>
+  <%= @museum.image_url %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @museum.description %>
+</p>
+
+<p>
+  <b>Wait time:</b>
+  <%= @museum.wait_time %>
+</p>
+
+
+<%= link_to 'Edit', edit_museum_path(@museum) %> |
+<%= link_to 'Back', museums_path %>

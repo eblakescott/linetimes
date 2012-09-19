@@ -2,17 +2,24 @@
 <p id="notice"><%= notice %></p>
 <% end %>
 <div class="container">
-<h1>Where Do You Want to Go?</h1>
+<h1>LOGO Check Wait Times in Chicago</h1>
 <div class="row">
   <div class="span6">
-  <h2>Browse wait times for clubs, museums, restaurants, and more</h2>
+  <h2>Browse Locations</h2>
+  <ul>
+  <li>Museums and Cultural Institutions</li>
+  <li>Bars</li>
+  <li>Restaurants</li>
+  <li>Clubs</li>
+  <li>Events for DATE</li>
+  </ul>
   </div>
-  <div class="span4">
+  <div class="span3">
   <h2> Or...</h2>
   </div>
   <form class="form-search">
   <div class="input-append">
-      <input type="text" class="span2 search-query" placeholder="Location name...">
+      <input type="text" class="span2 search-query" placeholder="Search location name">
       <button type="submit" class="btn btn-primary">Go!</button>
   </div>
   </div>
