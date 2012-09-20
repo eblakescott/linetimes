@@ -1,4 +1,6 @@
 Linetimes::Application.routes.draw do
+  resources :waits
+
   resources :locations
 
   resources :museums
