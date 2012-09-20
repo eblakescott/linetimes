@@ -5,7 +5,6 @@ class Product < ActiveRecord::Base
   validates :image_url, allow_blank: true, format: {
     with:
     %r{\.(gif|jpg|png)\Z}i,
-    message: 'must be a URL for GIF, JPG or PNG image.'
+    message: 'must be a URL for GIF, JPG, or PNG image.'
 }
-
 end
