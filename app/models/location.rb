@@ -1,3 +1,3 @@
 class Location < ActiveRecord::Base
-  attr_accessible : title, :description, :image_url
+  attr_accessible :description, :image_url, :title, :type
 end
