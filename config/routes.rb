@@ -3,8 +3,6 @@ Linetimes::Application.routes.draw do
 
   resources :waits
 
-  resources :locations
-
   get "waiting/index"
 
   resources :products
