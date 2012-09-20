@@ -22,4 +22,4 @@ length: 80) %></dd>
 
 <br />
 
-<%= link_to 'New Product', new_product_path, class: "btn btn-primary" %>
+<%= link_to 'New Location', new_product_path, class: "btn btn-primary" %>
