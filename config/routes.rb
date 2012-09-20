@@ -5,8 +5,6 @@ Linetimes::Application.routes.draw do
 
   resources :locations
 
-  resources :museums
-
   get "waiting/index"
 
   resources :products
