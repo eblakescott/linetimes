@@ -1,7 +1,9 @@
 class RemovePriceFromProducts < ActiveRecord::Migration
-  def up
+  def self.up
+    remove_column :products, :price
   end
 
-  def down
+  def self.down
+    add_column :products, :price, :decimal    
   end
 end
