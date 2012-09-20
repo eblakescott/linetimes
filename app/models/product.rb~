@@ -1,5 +1,5 @@
 class Product < ActiveRecord::Base
-  attr_accessible :description, :image_url, :price, :title, :category
+  attr_accessible :description, :image_url, :title, :category
   validates :title, :description, :image_url, presence: true
   validates :title, uniqueness: true
   validates :image_url, allow_blank: true, format: {
